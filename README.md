@@ -1,100 +1,189 @@
-# Task Manager Web Application
+# 🚀 TaskFlow Pro – Full-Stack Task Management System
 
-A simple Task Manager web application built with Django and React.
+TaskFlow Pro is a modern full-stack task management application built using **React.js** and **Django REST Framework**. The application enables users to efficiently create, update, organize, and manage daily tasks through a clean, responsive, and user-friendly interface.
 
-<img width="960" alt="image" src="https://github.com/SuryaPratap2542/Task_Manager-Django_React/assets/89827931/c6e22a32-2097-4f0a-8067-9a09b5fb09ff">
-- main page displaying tasks.
+---
 
+# 📸 Application Preview
 
-## Overview
+<p align="center">
+  <img src="assets/dashboard.png" alt="TaskFlow Pro Dashboard" width="1000"/>
+</p>
 
-Task Manager is a web application that allows users to manage their tasks and to-do lists. It provides a user-friendly interface for creating, editing, and deleting tasks, as well as marking tasks as completed or incompleted. The backend is built with Django, which provides RESTful API endpoints for interacting with tasks, while the frontend is built with React.
+---
 
+# ✨ Features
 
-<img width="960" alt="image" src="https://github.com/SuryaPratap2542/Task_Manager-Django_React/assets/89827931/8c1dff9b-5160-44c4-9e05-bd3fc5e641f9">
-- "Add Task" feature.
+- ✅ Create new tasks
+- ✏️ Edit existing tasks
+- 🗑️ Delete tasks
+- ✅ Mark tasks as Completed or Pending
+- 🎯 Priority Management (Low, Medium, High)
+- 📊 Dashboard with task statistics
+- 📱 Fully Responsive User Interface
+- ⚡ REST API integration
+- 🎨 Modern and Clean UI Design
 
+---
 
-<img width="960" alt="image" src="https://github.com/SuryaPratap2542/Task_Manager-Django_React/assets/89827931/c431abe7-164d-4d8c-835f-38aec1f9926e">
-- completed tasks.
+# 🛠 Tech Stack
 
+### Frontend
+- React.js
+- Axios
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
-<img width="954" alt="image" src="https://github.com/SuryaPratap2542/Task_Manager-Django_React/assets/89827931/59b1ad8b-6982-47f6-969e-4a373ee255da">
-- incompleted tasks.
+### Backend
+- Django
+- Django REST Framework
+- SQLite
 
+### Tools & Technologies
+- Git
+- GitHub
+- VS Code
 
-## Features
+---
 
-- Create, Read, Update, and Delete tasks.
-- Mark tasks as completed or incompleted.
-- Filter tasks by completion status (completed/incompleted).
-- User-friendly and responsive design.
-- Seamless integration of Django and React.
+# 📂 Project Structure
 
-## Getting Started
+```text
+Task-management/
+│
+├── backend/
+│   ├── backend/
+│   ├── todo/
+│   └── manage.py
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   └── package.json
+│
+├── assets/
+│   └── dashboard.png
+│
+├── README.md
+└── .gitignore
+```
 
-1. **Clone the repository:**
+---
 
-   ```bash
-   git clone https://github.com/your-username/task-manager.git
-   cd task-manager
-   ```
+# 🚀 Installation
 
-2. **Backend (Django):**
+## Clone Repository
 
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   python manage.py migrate
-   python manage.py runserver
-   ```
+```bash
+git clone https://github.com/kavilanrj-cmd/Task-management.git
+cd Task-management
+```
 
-   The Django server should now be running at `http://localhost:8000`.
+---
 
-3. **Frontend (React):**
+## Backend Setup
 
-   ```bash
-   cd frontend
-   npm install
-   npm start
-   ```
+```bash
+cd backend
 
-   The React development server should now be running at `http://localhost:3000`.
+pip install -r requirements.txt
 
+python manage.py migrate
 
-## Usage
+python manage.py runserver
+```
 
-1. Access the web application by opening your web browser and navigating to `http://localhost:3000`.
+Backend Server
 
-2. Create a new task by clicking the "Add Task" button.
+```
+http://127.0.0.1:8000
+```
 
-3. Edit or delete tasks using the provided buttons.
+---
 
-4. Mark tasks as completed or incompleted by clicking on them.
+## Frontend Setup
 
-## API Endpoints
+```bash
+cd frontend
 
-The backend Django server provides the following API endpoints:
+npm install
 
-- `GET /api/task/`: Get a list of all tasks.
-- `POST /api/task/`: Create a new task.
-- `GET /api/task/<task_id>/`: Get details of a specific task.
-- `PUT /api/task/<task_id>/`: Update a specific task.
-- `DELETE /api/task/<task_id>/`: Delete a specific task.
+npm start
+```
 
-You can use these endpoints to interact with the task data programmatically.
+Frontend Server
 
-## Contributing
+```
+http://localhost:3000
+```
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+---
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your forked repository.
-5. Submit a pull request with a detailed description of your changes.
+# 📌 API Endpoints
 
-## License
+| Method | Endpoint | Description |
+|----------|------------------|-------------------------|
+| GET | `/api/task/` | Get all tasks |
+| POST | `/api/task/` | Create a task |
+| GET | `/api/task/<id>/` | Get a task |
+| PUT | `/api/task/<id>/` | Update a task |
+| DELETE | `/api/task/<id>/` | Delete a task |
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+---
 
+# 🎯 Key Functionalities
+
+- Task Creation
+- Task Editing
+- Task Deletion
+- Task Completion Tracking
+- Task Priority Management
+- Responsive Dashboard
+- REST API Communication
+- Dynamic State Management using React Hooks
+
+---
+
+# 🔮 Future Improvements
+
+- 🔐 JWT Authentication
+- 👤 User Login & Registration
+- 📅 Due Date Management
+- 🏷 Categories
+- 🌙 Dark Mode
+- 🔔 Notifications
+- 📊 Charts & Analytics
+- 📤 Export Tasks to PDF/CSV
+- ☁️ Cloud Deployment
+- 🤖 AI Task Suggestions
+
+---
+
+# 💻 Screenshots
+
+### Dashboard
+
+![Dashboard](assets/dashboard.png)
+
+---
+
+# 👨‍💻 Author
+
+**Kavilan R J**
+
+GitHub: https://github.com/kavilanrj-cmd
+
+LinkedIn: *(Add your LinkedIn profile here)*
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.

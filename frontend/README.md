@@ -1,70 +1,189 @@
-# Getting Started with Create React App
+# 🚀 TaskFlow Pro – Full-Stack Task Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TaskFlow Pro is a modern full-stack task management application built using **React.js** and **Django REST Framework**. The application enables users to efficiently create, update, organize, and manage daily tasks through a clean, responsive, and user-friendly interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# 📸 Application Preview
 
-### `npm start`
+<p align="center">
+  <img src="assets/dashboard.png" alt="TaskFlow Pro Dashboard" width="1000"/>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# ✨ Features
 
-### `npm test`
+- ✅ Create new tasks
+- ✏️ Edit existing tasks
+- 🗑️ Delete tasks
+- ✅ Mark tasks as Completed or Pending
+- 🎯 Priority Management (Low, Medium, High)
+- 📊 Dashboard with task statistics
+- 📱 Fully Responsive User Interface
+- ⚡ REST API integration
+- 🎨 Modern and Clean UI Design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# 🛠 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend
+- React.js
+- Axios
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend
+- Django
+- Django REST Framework
+- SQLite
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tools & Technologies
+- Git
+- GitHub
+- VS Code
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 📂 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```text
+Task-management/
+│
+├── backend/
+│   ├── backend/
+│   ├── todo/
+│   └── manage.py
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   └── package.json
+│
+├── assets/
+│   └── dashboard.png
+│
+├── README.md
+└── .gitignore
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 🚀 Installation
 
-## Learn More
+## Clone Repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/kavilanrj-cmd/Task-management.git
+cd Task-management
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Backend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd backend
 
-### Analyzing the Bundle Size
+pip install -r requirements.txt
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+python manage.py migrate
 
-### Making a Progressive Web App
+python manage.py runserver
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Backend Server
 
-### Advanced Configuration
+```
+http://127.0.0.1:8000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Frontend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+cd frontend
 
-### `npm run build` fails to minify
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+```
+
+Frontend Server
+
+```
+http://localhost:3000
+```
+
+---
+
+# 📌 API Endpoints
+
+| Method | Endpoint | Description |
+|----------|------------------|-------------------------|
+| GET | `/api/task/` | Get all tasks |
+| POST | `/api/task/` | Create a task |
+| GET | `/api/task/<id>/` | Get a task |
+| PUT | `/api/task/<id>/` | Update a task |
+| DELETE | `/api/task/<id>/` | Delete a task |
+
+---
+
+# 🎯 Key Functionalities
+
+- Task Creation
+- Task Editing
+- Task Deletion
+- Task Completion Tracking
+- Task Priority Management
+- Responsive Dashboard
+- REST API Communication
+- Dynamic State Management using React Hooks
+
+---
+
+# 🔮 Future Improvements
+
+- 🔐 JWT Authentication
+- 👤 User Login & Registration
+- 📅 Due Date Management
+- 🏷 Categories
+- 🌙 Dark Mode
+- 🔔 Notifications
+- 📊 Charts & Analytics
+- 📤 Export Tasks to PDF/CSV
+- ☁️ Cloud Deployment
+- 🤖 AI Task Suggestions
+
+---
+
+# 💻 Screenshots
+
+### Dashboard
+
+![Dashboard](assets/dashboard.png)
+
+---
+
+# 👨‍💻 Author
+
+**Kavilan R J**
+
+GitHub: https://github.com/kavilanrj-cmd
+
+LinkedIn: *(Add your LinkedIn profile here)*
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
