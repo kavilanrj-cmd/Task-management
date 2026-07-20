@@ -2,7 +2,12 @@
 
 TaskFlow Pro is a modern full-stack task management application built using **React.js** and **Django REST Framework**. The application enables users to efficiently create, update, organize, and manage daily tasks through a clean, responsive, and user-friendly interface.
 
+<<<<<<< HEAD
 ---
+=======
+<img width="960" alt="image" src="C:\Users\kavil\OneDrive\画像\Screenshots">
+- main page displaying tasks.
+>>>>>>> bd927265fe8167b049f0f12d1c253ffe3ebc8c14
 
 # 📸 Application Preview
 
@@ -10,6 +15,7 @@ TaskFlow Pro is a modern full-stack task management application built using **Re
   <img src="assets/dashboard.png" alt="TaskFlow Pro Dashboard" width="1000"/>
 </p>
 
+<<<<<<< HEAD
 ---
 
 # ✨ Features
@@ -44,6 +50,8 @@ TaskFlow Pro is a modern full-stack task management application built using **Re
 - Git
 - GitHub
 - VS Code
+=======
+>>>>>>> bd927265fe8167b049f0f12d1c253ffe3ebc8c14
 
 ---
 
